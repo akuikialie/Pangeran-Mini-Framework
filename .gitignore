@@ -1,0 +1,5 @@
+vendor/
+upload/
+tmp/
+error_log
+phinx.yml

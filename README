@@ -1,0 +1,11 @@
+
+========================= INSTALLATION =========================
+1. $ git clone [github url]
+2. $ composer install
+3. $ composer dupm-autoload
+4. edit configurasi database :
+    $ cp src/Core/config.php.swp src/Core/config.php
+    $ vim src/Core/config.php
+    $ cp phinx.yml.swp phinx.yml
+    $ vim phinx.yml
+5. $ vendor/bin/phinx migrate

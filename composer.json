@@ -1,0 +1,14 @@
+{
+    "autoload" : {
+        "psr-4" : {
+            "Pangeran\\" : "src/Pangeran"
+        }
+    },
+    "require": {
+        "slim/slim": "2.*",
+        "league/plates": "3.*",
+        "symfony/http-foundation": "^2.7",
+        "robmorgan/phinx": "^0.4.5",
+        "league/flysystem": "^1.0"
+    }
+}
