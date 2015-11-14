@@ -2,8 +2,8 @@
 //Database Setting
 $config['dbhost'] = 'localhost';
 $config['dbuser'] = 'root';
-$config['dbpass'] = 'anisnuzulan123`';
-$config['dbname'] = 'dda';
+$config['dbpass'] = '';
+$config['dbname'] = '';
 
 //Plates 
 $config['plates_dir'] = __DIR__.'/../Pangeran';
